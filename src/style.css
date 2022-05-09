@@ -1,0 +1,88 @@
+/*
+* RESET
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    background-color: #161828;
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+* utility classes
+*/
+
+.hidden
+{
+    display: none;
+}
+
+.visible
+{
+    display: block;
+}
+
+.relative
+{
+    position: relative;
+}
+
+/*
+*  icon styling
+*/
+
+
+.current__icon
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 30%;
+    left: 75%;
+    padding: 1rem;
+    text-align: center;
+    background-color: hsla(229, 10%, 32%, 50%);
+    border-radius: 5px;
+    position: absolute;
+    max-width: 20ch;
+    min-height:10rem;
+}
+
+@media (max-width: 700px) {
+    .current__icon
+    {
+        bottom: 0%;
+        left: 16.3%;
+        width: 100%;
+    }
+}
+
+.current__icon-title
+{
+    font-size: 2rem;
+}
+
+.current__icon-info
+{
+    font-size: 16px;
+}

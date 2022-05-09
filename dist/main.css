@@ -1,0 +1,37 @@
+/*
+* RESET
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    background-color: #161828;
+    color: white;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.current-icon
+{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    right: 50%;
+    z-index: 2;
+}
+
+/*# sourceMappingURL=main.css.map*/
